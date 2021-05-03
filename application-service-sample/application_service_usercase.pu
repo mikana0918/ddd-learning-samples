@@ -1,0 +1,17 @@
+@startuml sample_application_service_usecase
+:利用者: as u
+
+package SampleSNSUsecase {
+  usecase "ユーザーを登録する" as uc1
+  usecase "ユーザー情報を確認する" as uc2
+  usecase "ユーザー情報を更新する" as uc3
+  usecase "退会する" as uc4
+
+}
+
+u->(uc1)
+u->(uc2)
+u->(uc3)
+u->(uc4)
+
+@enduml
